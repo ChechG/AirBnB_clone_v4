@@ -50,7 +50,9 @@ button:hover {
     height: 100%;
     width: 25%;
 }
-
+.amenities .popover input {
+    
+}
 .popover {
     visibility: hidden;
     width: 100%;
