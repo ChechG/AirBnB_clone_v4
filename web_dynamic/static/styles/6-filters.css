@@ -1,3 +1,6 @@
+.amenities .popover ul li input {
+    margin-right: 10px;
+}
 .container .filters {
     position: relative;
     background: white;
@@ -41,6 +44,11 @@ button:hover {
     font-weight: 400;
     font-size: 14px;
 }
+
+#selectedtext {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .locations {
     height: 100%;
     width: 25%;
@@ -50,9 +58,7 @@ button:hover {
     height: 100%;
     width: 25%;
 }
-.amenities .popover input {
-    
-}
+
 .popover {
     visibility: hidden;
     width: 100%;
