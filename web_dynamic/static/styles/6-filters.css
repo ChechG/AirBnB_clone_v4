@@ -34,20 +34,38 @@ button:hover {
     font-weight: 600;
 }
 .filters h3 {
-    margin-left: 15%;
+    margin-left: 20px;
     margin-bottom: 0;
     font-weight: 600;
 }
 .filters h4 {
-    margin-left: 15%;
+    margin-left: 20px;
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
 }
 
 #selectedtext {
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    width: 200px;
+    height: 18px;
+}
+#selected {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+    height: 18px;
+}
+.chk_state {
+    margin-right: 10px;
+    float: left;
+    margin-top: 8px;
+}
+.chk_city {
+    margin-right: 10px;
 }
 .locations {
     height: 100%;
@@ -78,8 +96,7 @@ button:hover {
 
 .amenities .popover {
     padding: 10px 0;
-    margin-left: -5px;
-    margin-top: 0%;
+    margin-left: -4px;
 }
 
 .amenities .popover ul{
